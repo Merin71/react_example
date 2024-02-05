@@ -4,11 +4,12 @@ import StateBasics from './components/StateBasics';
 import { Route, Routes } from 'react-router-dom';
 import SampleForm from './components/SampleForm';
 import { Switch } from '@mui/material';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className='App'>
-     
+     <Navbar/>
       <Routes>
         <Route path='/' element ={<StateBasics/>}/>
         <Route path='/form' element={<SampleForm/>}/>
