@@ -23,26 +23,32 @@ const SampleForm = () => {
         <br/><br/>
         <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={6}>
+                <label htmlFor="uname">Username:</label>
                 <TextField 
                 fullWidth 
-                label='username' 
+                label="Username"
                 name="uname" 
+                id="name"
                 value={input.uname}
                 onChange={inputHandler}/>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
+                <label htmlFor="email">Email:</label>
                 <TextField 
                 fullWidth 
-                label='email'
+                label="Email"
                 name="email" 
+                id="email"
                 value={input.email}
                 onChange={inputHandler}/>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
+                <label htmlFor="phno">Phone Number:</label>
                 <TextField 
                 fullWidth 
-                label='phno'
+                label="Phone Number"
                 name="phno" 
+                id="phnp"
                 value={input.phno}
                 onChange={inputHandler}/>
             </Grid>
