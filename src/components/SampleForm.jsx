@@ -30,7 +30,8 @@ const SampleForm = () => {
                 name="uname" 
                 id="uname"
                 value={input.uname}
-                onChange={inputHandler}/>
+                onChange={inputHandler}
+                autocomplete="username"/>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
                 <label htmlFor="email"></label>
@@ -40,7 +41,8 @@ const SampleForm = () => {
                 name="email" 
                 id="email"
                 value={input.email}
-                onChange={inputHandler}/>
+                onChange={inputHandler}
+                autocomplete="email"/>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
                 <label htmlFor="phno"></label>
@@ -50,7 +52,8 @@ const SampleForm = () => {
                 name="phno" 
                 id="phno"
                 value={input.phno}
-                onChange={inputHandler}/>
+                onChange={inputHandler}
+                autocomplete="phno"/>
             </Grid>
         </Grid>
         <br/><br/>
