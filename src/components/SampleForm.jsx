@@ -55,7 +55,7 @@ const SampleForm = () => {
                 id="phno"
                 value={input.phno}
                 onChange={inputHandler}
-                autoComplete="phone number"
+                autoComplete="tel"
                 />
             </Grid>
         </Grid>
