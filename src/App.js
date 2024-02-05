@@ -3,7 +3,6 @@ import './App.css';
 import StateBasics from './components/StateBasics';
 import { Route, Routes } from 'react-router-dom';
 import SampleForm from './components/SampleForm';
-import { Switch } from '@mui/material';
 import Navbar from './components/Navbar';
 
 function App() {

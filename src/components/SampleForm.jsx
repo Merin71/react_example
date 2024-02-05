@@ -28,7 +28,7 @@ const SampleForm = () => {
                 fullWidth 
                 label="Username"
                 name="uname" 
-                id="name"
+                id="uname"
                 value={input.uname}
                 onChange={inputHandler}/>
             </Grid>
@@ -48,7 +48,7 @@ const SampleForm = () => {
                 fullWidth 
                 label="Phone Number"
                 name="phno" 
-                id="phnp"
+                id="phno"
                 value={input.phno}
                 onChange={inputHandler}/>
             </Grid>
