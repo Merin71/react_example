@@ -19,7 +19,7 @@ const SampleForm = () => {
     }
   return (
     <div style={{margin:'10%', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <Typography variant='h3'>Welcome to Login page</Typography>
+        <Typography variant='h3' style={{alignItems:'center'}}>Welcome to Login page</Typography>
         <br/><br/>
         <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={6}>
