@@ -7,12 +7,12 @@ import SampleForm from './components/SampleForm';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+     
       <Routes>
-        <Route path='/' element ={<StateBasics/>}/>
-        <Route path='/form' element={<SampleForm/>}/>
+        <Route path='/' Component ={StateBasics}/>
+        <Route path='/form' Component={SampleForm}/>
       </Routes>
-      </BrowserRouter>
+    
     </div>
   );
 }
