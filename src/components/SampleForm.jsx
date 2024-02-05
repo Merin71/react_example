@@ -31,7 +31,7 @@ const SampleForm = () => {
                 id="uname"
                 value={input.uname}
                 onChange={inputHandler}
-                autoComplete="uname"
+                autoComplete="username"
                 />
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
@@ -55,7 +55,7 @@ const SampleForm = () => {
                 id="phno"
                 value={input.phno}
                 onChange={inputHandler}
-                autoComplete="phno"
+                autoComplete="phone number"
                 />
             </Grid>
         </Grid>
