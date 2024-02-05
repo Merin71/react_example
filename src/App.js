@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import StateBasics from './components/StateBasics';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import SampleForm from './components/SampleForm';
 
 function App() {
