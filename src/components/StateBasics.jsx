@@ -1,6 +1,6 @@
 import { Button, TextField, Typography } from '@mui/material';
 import React, { useState } from 'react';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 
 const StateBasics = () => {
     var[Fname,setFname] = useState("Merin");   // state management .if i click change button,i want change name in the welcome...to the name in textfield to welcomw fname 

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import StateBasics from './components/StateBasics';
-import { Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router  ,Route, Routes } from 'react-router-dom';
 import SampleForm from './components/SampleForm';
 import Navbar from './components/Navbar';
 
@@ -9,10 +9,10 @@ function App() {
   return (
     <div className='App'>
      <Navbar/>
-      <Routes>
+      <Router basename="/react_example">
         <Route path='/' element ={<StateBasics/>}/>
         <Route path='/form' element={<SampleForm/>}/>
-      </Routes>
+      </Router>
     
     </div>
   );

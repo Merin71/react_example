@@ -23,7 +23,7 @@ const SampleForm = () => {
         <br/><br/>
         <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={6}>
-                <label htmlFor="uname">Username:</label>
+                <label htmlFor="uname"></label>
                 <TextField 
                 fullWidth 
                 label="Username"
@@ -33,7 +33,7 @@ const SampleForm = () => {
                 onChange={inputHandler}/>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email"></label>
                 <TextField 
                 fullWidth 
                 label="Email"
@@ -43,7 +43,7 @@ const SampleForm = () => {
                 onChange={inputHandler}/>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
-                <label htmlFor="phno">Phone Number:</label>
+                <label htmlFor="phno"></label>
                 <TextField 
                 fullWidth 
                 label="Phone Number"
