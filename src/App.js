@@ -10,8 +10,8 @@ function App() {
     <div className='App'>
      <Navbar/>
       <Router basename="/react_example">
-        <Route path='/' element ={<StateBasics/>}/>
-        <Route path='/form' element={<SampleForm/>}/>
+        <Route path='/' element ={<SampleForm/>}/>
+        <Route path='/form' element={<StateBasics/>}/>
       </Router>
     
     </div>
