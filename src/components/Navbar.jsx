@@ -15,8 +15,8 @@ const Navbar = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Employee Dasboard
           </Typography>
-          < Button color="inherit"><Link style={{textDecoration:'none',color:'white'}} to={'/'}>SampleForm</Link></Button>
-          < Button color="inherit"><Link style={{textDecoration:'none',color:'white'}} to={'/form'}>Home</Link></Button>
+          < Button color="inherit"><Link style={{textDecoration:'none',color:'white'}} to={'/'}>Home</Link></Button>
+          < Button color="inherit"><Link style={{textDecoration:'none',color:'white'}} to={'/form'}>SampleForm</Link></Button>
         </Toolbar>
       </AppBar>
     </Box>

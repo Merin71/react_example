@@ -10,8 +10,8 @@ function App() {
     <div className='App'>
      <Navbar/>
       <Routes >
-        <Route path='/' element ={<SampleForm/>}/>
-        <Route path='/form' element={<StateBasics/>}/>
+        <Route path='/' element ={<StateBasics/>}/>
+        <Route path='/form' element={<SampleForm/>}/>
       </Routes>
     
     </div>
