@@ -9,10 +9,10 @@ function App() {
   return (
     <div className='App'>
      
-      <Switch>
-        <Route path='/' Component ={StateBasics}/>
-        <Route path='/form' Component={SampleForm}/>
-      </Switch>
+      <Routes>
+        <Route path='/' element ={<StateBasics/>}/>
+        <Route path='/form' element={<SampleForm/>}/>
+      </Routes>
     
     </div>
   );
