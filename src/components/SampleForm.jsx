@@ -1,5 +1,5 @@
-import { Button, Grid, TextField, Typography } from '@mui/material'
-import React, { useState } from 'react'
+import { Button, Grid, TextField, Typography } from '@mui/material';
+import React, { useState } from 'react';
 
 const SampleForm = () => {
     const [inputs, setInputs] = useState([]);
